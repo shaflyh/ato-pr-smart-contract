@@ -34,7 +34,7 @@ npx hardhat verify --network rinkeby CONTRACT_ADDRESS
 # If have arguments
 npx hardhat verify --constructor-args scripts/arguments.js DEPLOYED_CONTRACT_ADDRESS
 
-npx hardhat verify --network rinkeby 0x0f5071241d39E83E0bB1fA0B311Afdba4D1e6e3C "https://midnightbreeze.mypinata.cloud/ipfs/QmQgqB5hFVfVddk7BpA2vfW1MyaFhHrZpvjKyc3DKpM3iv/"
+npx hardhat verify --network rinkeby 0x0b00D8489d3b6A2dEE93765E0fF2006e660D4CB9 "https://midnightbreeze.mypinata.cloud/ipfs/QmQgqB5hFVfVddk7BpA2vfW1MyaFhHrZpvjKyc3DKpM3iv/"
 
 ```
 

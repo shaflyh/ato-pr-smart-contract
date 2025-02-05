@@ -28,11 +28,13 @@ contract ProjectReincarnation is ERC721A, Ownable, ReentrancyGuard {
     uint256 public maxMint = 3;
     bool public paused = false;
     address public YogaLabsContract =
-        0x11862B3362600E99666599dce8913064feBC722C;
-    address public TISContract = 0x11862B3362600E99666599dce8913064feBC722C;
+        0x1E4918dbedB5845915c0A39ee61a654A1217Dd9B;
+    address public TISContract = 0x8995acC5d26DE48b1ce9dF74E620dd70309Ce42e;
     mapping(uint256 => bool) public tisFusioned;
 
-    constructor(string memory _initBaseURI) ERC721A("ATO: Yoga Labs", "YOGA") {
+    constructor(string memory _initBaseURI)
+        ERC721A("ATO: Project Reincarnation", "YOGA")
+    {
         setBaseURI(_initBaseURI);
     }
 
